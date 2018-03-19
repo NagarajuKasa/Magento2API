@@ -1,8 +1,7 @@
 <?php
 /**
 * A Magento 2 module named Nagaraju/Student
-* Copyright (C) 2017  Ewall Solutions Pvt Ltd
-*
+* 
 */
 namespace Nagaraju\Student\Setup;
 
