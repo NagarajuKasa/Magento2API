@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Nagaraju_Student::parent" title="Student" module="Nagaraju_Student" sortOrder="100" resource="Nagaraju_Student::parent"/>
+        <add id="Nagaraju_Student::index" title="Student Index" module="Nagaraju_Student" sortOrder="10" action="student/index" resource="Nagaraju_Student::index" parent="Nagaraju_Student::parent"/>
+		<add id="Nagaraju_Student::student" title="Nagaraju Student" module="Nagaraju_Student" sortOrder="20" parent="Nagaraju_Student::parent" action="student/student" resource="Nagaraju_Student::student"/>
+
+    </menu>
+</config>
